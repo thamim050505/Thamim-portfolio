@@ -23,7 +23,7 @@ const Home = () => {
               <br />
               <small>Chennai, TamilNadu, India</small>
             </p>
-            <a href="/src/assets/KamilThamim-resume.pdf" download>
+            <a href="/KamilThamim-resume.pdf" download>
               <button>Download Resume</button>
             </a>
           </div>
