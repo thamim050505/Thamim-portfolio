@@ -1,0 +1,466 @@
+.home {
+  min-height: 90vh;
+  background-color: rgba(228, 219, 219, 0.633);
+  position: relative;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100;
+}
+.home__inner {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.inner__content small{
+  text-wrap: nowrap;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.header__inner a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  position: relative;
+}
+.header__inner a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: rgb(255, 255, 255);
+  transition: width 0.3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.header__inner a:hover::after {
+  width: 100%;
+}
+.img-container {
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.inner__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+
+}
+.inner__content h1 {
+  font-family: "Poetsen One";
+  text-align: center;
+}
+.inner__content span {
+  font-family:"poetsen one";
+  color: rgb(222, 29, 29);
+}
+.inner__content b {
+  color: #6e6e6e;
+  font-size: 16px;
+  padding: 3px 6px;
+  margin: 1%;
+  background-color: #dfdfdf;
+  color: #000000;
+  font-family: "poppins";
+}
+.home__content-span {
+  padding: 3px;
+  margin: 1%;
+  background-color: #dfdfdf;
+  color: #000000;
+  font-family: "poppins";
+}
+.inner__content p {
+  font-family: "Poppins";
+  text-align: center;
+  line-height: 2em;
+}
+.home-content-h1-span {
+  font-size: 16px;
+  font-family: "Poppins";
+}
+.inner__content button {
+  font-family: "Poppins";
+  border: none;
+  border-radius: 3%;
+  color: white;
+  font-weight: 600;
+  background-color:cadetblue;
+  width: 150px;
+  padding: 2%;
+}
+
+.inner__img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: url("./../../public/thamim-logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+  background-color: #ffffff7a;
+}
+
+.about {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.about__inner{
+  width: 100%;
+}
+
+.about__inner h1 {
+  font-family: "poetsen One";
+  font-size: 3.9em;
+  text-align: center;
+}
+
+.about h2 {
+  font-family: "Poetsen One";
+  font-size: 40px;
+}
+.about__inner span {
+  font-family: "Poetsen One";
+  color: crimson;
+}
+.about p {
+  font-family: "poppins";
+  color: #636363;
+  font-size: 18px;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+
+.contact {
+  background-color: #f5f5f588;
+}
+.contact__inner{
+  width: 100%;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.contact__inner {
+  height: 80vh;
+  border-bottom: 3px solid rgb(213, 213, 213);
+}
+.contact_inner_content {
+  width: 60%;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.contact_inner_content h1 {
+  font-family: "Poetsen One";
+  font-size: 5em;
+}
+.contact_inner_content p {
+  font-family: "poppins";
+  font-size: 1.2rem;
+  color: #636363;
+}
+.contact__inner-links a {
+  color: #000000;
+}
+
+
+.skills-head{
+  margin-top: 4%;
+}
+.skills__inner h3 {
+  font-size: 1.9em;
+  color: #636363;
+  font-weight: 200;
+  margin-bottom: 2%;
+  margin-left: 3%;
+}
+.skills__inner{
+  padding-left: 2%;
+}
+.skills__inner h1 {
+  font-size: 3.8em;
+  font-family: "poetsen One";
+}
+.skills__inner span {
+  font-size: 1.1em;
+  font-family: "poetsen One";
+  color: bisque;
+}
+.skills_inner_content span {
+  font-size: 1em;
+  font-family: "poetsen One";
+  color: bisque;
+}
+.skills__inner p {
+  font-size: 1em;
+  padding-left: 5%;
+  width: 90%;
+}
+
+.skills-right__inner {
+  padding: 2%;
+  border-radius: 4%;
+  border: 2px solid rgb(232, 232, 232);
+}
+.skills_inner_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills_inner_box div {
+  width: 170px;
+  height: 90px;
+  background-color:bisque;
+  border: 2px solid bisque;
+  border-radius: 15%;
+  margin: 3% 2%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: scaleUpDown 1.4s ease-in-out infinite;
+}
+
+.skills_inner_box div:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.skills_inner_box div:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.skills_inner_box div:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.skills_inner_box div:nth-child(4) {
+  animation-delay: 0.9s;
+}
+
+.skills_inner_box div:nth-child(5) {
+  animation-delay: 1.2s;
+}
+
+.skills_inner_box div:nth-child(6) {
+  animation-delay: 1.5s;
+}
+
+
+@keyframes scaleUpDown {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+
+.project__inner{
+  width:100%;
+}
+.pro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.project-view{
+    display: flex;
+    justify-content: space-between;
+    gap:16px
+}
+.project-detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 4%;
+}
+.project h1 {
+  font-size: 0.8em;
+  text-align: center;
+  margin: .5%;
+}
+.project-card {
+  padding: 4%;
+  background-color: #f1f2ff;
+  border-radius: 11px;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  width: 41%;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card button {
+  border: none;
+  padding: 7px 15px;
+  background-color: bisque;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  width: 150px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.project-card button:hover {
+  background-color:crimson;
+}
+
+.project-card img {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width:380px;
+}
+
+.project-card h2 {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.project-card b {
+  font-size: 16px;
+  color: #555;
+}
+.project-card p {
+  font-size: 16px;
+  color: #555;
+  margin: 0%;
+}
+.project h1 {
+  font-family: "poetsen One";
+  font-size: 3.8em;
+}
+.project span {
+  font-family: "poetsen One";
+  font-size: 0.7em;
+  color:crimson;
+}
+
+
+@media only screen and (max-width:600px){
+  
+.contact__inner {
+  height: auto;
+}
+.contact_inner_content h1{
+  font-size: 3.4em;
+}
+  .contact_inner_content {
+    width: 100%;
+    padding: 2%;
+  
+  }
+  .form__inner{
+    padding: 2%;
+  }
+  .form__inner button{
+    width: 200px;
+  }
+  .home__inner{
+    width: 100%;
+    padding: 1% 4%;
+  }
+  .about{
+    padding: 10% 10%;
+    height: auto;
+  }
+  .about__inner h1 {
+    font-family: "poetsen One";
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .about__inner p {
+    text-align: center;
+  }
+  .inner__content h1 {
+    font-size: 30px;
+  }
+  .inner__content span {
+    font-family: "Poetsen One";
+    color: crimson;
+  }
+  .home {
+    min-height: auto;
+    padding:12% 12%;
+  
+  }
+  .skills__inner h1{
+    font-size: 2.4em;
+  
+  }
+  .skills_inner_box div {
+    width: 105px;
+    height: 71px;
+    background-color: bisque;
+    border: 2px solid bisque;
+    border-radius: 17%;
+    margin: 3% 3%;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: scaleUpDown 1.5s ease-in-out infinite;
+  }
+  .skills-right{
+    margin: 2% 0%;
+    margin-left: 3%;
+  }
+  .project-card {
+    min-width: 100%;
+    margin: 5% 4%;
+  }
+  .project-card img {
+    width: 380px;
+  }
+  .project-card button {
+    width: 120px;
+  }
+  .project h1 {
+    font-size: 2.4em;
+    margin-top: 10px;
+  }
+}
