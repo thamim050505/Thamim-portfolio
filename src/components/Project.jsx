@@ -6,7 +6,7 @@ const Project = () => {
     
     {
       id: 1,
-      imgURL: "/src/assets/project-1.png.png",
+      imgURL: "/project-1.png.png",
       projectName: "EB-Calculator",
       liveLink: "https://ebcalculatorchart.netlify.app/",
       codeLink: "https://github.com/thamim050505/EB-Calculator.git",
@@ -15,7 +15,7 @@ const Project = () => {
     },
     {
       id: 2,
-      imgURL: "/src/assets/project-2.png.png",
+      imgURL: "/project-2.png.png",
       projectName: "Image-Vault",
       liveLink: "",
       codeLink: "https://github.com/thamim050505/Image_vault.git",
